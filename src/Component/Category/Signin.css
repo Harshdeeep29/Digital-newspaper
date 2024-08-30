@@ -1,0 +1,70 @@
+/* Signup.css */
+
+
+
+.signin .container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signin .form-group {
+    margin-bottom: 15px;
+}
+
+.signin label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signin input[type="text"],
+.signin input[type="email"],
+.signin input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signin button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signin button:hover {
+    background-color: #0056b3;
+}
+
+.signin .alert {
+    display: none;
+}
+
+.signin .alert-success,
+.signin .alert-danger {
+    margin-top: 20px;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .signin .container {
+        margin: 20px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,31 @@
+.foot{
+    background-color: #272727;
+    padding: 30px;
+}
+.foot h4{
+    color: #fff;
+}
+.foot p{
+    color: grey;
+}
+.foot .row>div{
+    margin: 48px 0px;
+    padding: 0px 48px;    }
+    .socials_foot a{
+        font-size: 25px;
+        color: white;
+        letter-spacing: 10px;
+    }
+
+    .instagram img{
+        width: 75px;
+        height: 72px;
+        margin: 5px 4px;
+    }
+    .ns button{
+        background: linear-gradient(to right, #5791f0, #8fb7f0);
+        padding: 4px 17px;
+        font-size: 16px;
+        margin-top: 18px;
+        border: 1px solid black;
+    }

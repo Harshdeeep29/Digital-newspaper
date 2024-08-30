@@ -1,0 +1,71 @@
+/* General styles for the card containers */
+.right-container .no-gutters .col-md-4 img {
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 575.98px) {
+    .carousel-inner .details {
+        padding: 10px;
+    }
+    .card-body h6, .card-body p {
+        font-size: 14px;
+    }
+    .card-body h5 {
+        font-size: 16px;
+    }
+    .left-container, .right-container {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .carousel-inner .details {
+        padding: 15px;
+    }
+    .card-body h6, .card-body p {
+        font-size: 15px;
+    }
+    .card-body h5 {
+        font-size: 18px;
+    }
+    .left-container, .right-container {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .carousel-inner .details {
+        padding: 20px;
+    }
+    .card-body h6, .card-body p {
+        font-size: 16px;
+    }
+    .card-body h5 {
+        font-size: 20px;
+    }
+    .left-container, .right-container {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .carousel-inner .details {
+        padding: 25px;
+    }
+    .card-body h6, .card-body p {
+        font-size: 17px;
+    }
+    .card-body h5 {
+        font-size: 22px;
+    }
+    .left-container, .right-container {
+        margin-bottom: 35px;
+    }
+}
+
+/* Extra large devices */
+.container3 .left-container img {
+    width: 100%;
+    padding: 3px;
+}

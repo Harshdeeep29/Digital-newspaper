@@ -1,0 +1,27 @@
+.lighttheme{
+
+}
+.darktheme{
+background-color: #362929;
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    background-color: #ac998c;
+}
+.col-xl-5 .p-1 {
+    background-color: #ac998c;
+}
+.col-xl-4 .card {
+    background-color: #ac998c;
+}
+.navbar1 .bg-light,.navbar2 ,.navbar3 {
+    background-color: #EEEDEB !important;
+   
+}
+.left-container .card{
+    background-color: #ac998c;
+}
+.post, .sidebar{
+    background-color: #ac998c;
+
+}
+}

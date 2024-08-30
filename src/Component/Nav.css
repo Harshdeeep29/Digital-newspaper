@@ -1,0 +1,77 @@
+/* Navbar1 */
+.navbar1 i {
+    font-size: larger;
+}
+.navbar1 .navbar-collapse {
+    flex-grow: 0;
+}
+
+/* Navbar2 */
+.journalism-sec {
+    text-transform: uppercase;
+    font-family: 'Droid Serif', serif;
+    font-size: 14px;
+    color: #000;
+}
+
+/* Navbar3 */
+.navbar3 .navbar button {
+    margin-left: 20px;
+}
+
+/* Responsive */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar1 {
+        display: none;
+    }
+    .navbar2 .navbar-collapse, .navbar3 .navbar-collapse {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar2 .navbar-collapse img {
+        max-width: 100%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .navbar1 {
+        display: none;
+    }
+    .navbar2 .navbar-collapse, .navbar3 .navbar-collapse {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar2 .navbar-collapse img {
+        max-width: 100%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .navbar1 {
+        display: none;
+    }
+    .navbar2 .navbar-collapse, .navbar3 .navbar-collapse {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar2 .navbar-collapse img {
+        max-width: 100%;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .navbar2 .col-md-8 {
+        margin-left: 0% !important;
+    }
+}
+
+/* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
+.container3 .left-container img {
+    width: 100%;
+    padding: 3px;
+}
